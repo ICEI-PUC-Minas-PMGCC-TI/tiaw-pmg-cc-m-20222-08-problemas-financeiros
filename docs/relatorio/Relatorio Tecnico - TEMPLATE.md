@@ -5,17 +5,20 @@
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da Computação
 
 ## Participantes
+Alexandre C. Jurka
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Eduardo Fonseca
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+Lucas Jesuíno
+
+Mateus Gonçalves
+
+Pedro Henrique
+
+Yan Sabarense
 
 # Estrutura do Documento
 
