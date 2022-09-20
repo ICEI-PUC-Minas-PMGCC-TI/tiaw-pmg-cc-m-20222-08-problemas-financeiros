@@ -306,7 +306,7 @@ As ferramentas utilizadas foram:
 - GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.</br>
 - Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
  discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.</br>
-- Trello: Plataforma utilizada para contruir o Kanban utilizado pelo grupo.
+- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
