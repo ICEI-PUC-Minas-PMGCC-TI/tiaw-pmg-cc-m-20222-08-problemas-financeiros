@@ -290,26 +290,23 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-A medtodologia adotada pelo grupo foi baseada em multiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
+A metodologia adotada pelo grupo foi baseada em multiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
 de maneira mais dinâminca.
 
-Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são estão divididas entre os integrantes do grupo, e sua progressão é
-acompanhada por todos, através de reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
+Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
+acompanhada por todos, com reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
 individualmente ou em dupla, quando julgado necessário pelo grupo.
 
 A elaboração da entrevista foi realizada pelo grupo focando a qualidade e não a quantidade. Diversas perguntas foram elaboradas, mas no
 final apenas seis foram escolhidas para a realização da entrevista. Cada integrante do grupo foi conduzido a realizar pelo menos uma
 entrevista.
 
-
-
 As ferramentas utilizadas foram:
 
--GitHub: foi utilizado para controle do repositório e de toda a documentação a respeito do projeto.</br>
--Miro: o processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
-       discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.</br>
--Trello: foi a plataforma utilizada para contruir o Kanban utilizado pelo grupo.
+- GitHub: foi utilizado para controle do repositório e de toda a documentação a respeito do projeto.</br>
+- Miro: o processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
+ discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.</br>
+- Trello: foi a plataforma utilizada para contruir o Kanban utilizado pelo grupo.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
