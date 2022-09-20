@@ -1,7 +1,7 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-Digital Finance
+Digital Finance!
 
 `CURSO` 
 
