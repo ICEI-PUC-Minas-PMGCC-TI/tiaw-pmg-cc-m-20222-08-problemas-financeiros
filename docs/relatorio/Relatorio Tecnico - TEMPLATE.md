@@ -331,9 +331,9 @@ As ferramentas utilizadas foram:
 
 Além das funções pré-definidas abaixo, todos os membros do grupo participaram da elaboração de determinadas partes do projeto, como o MIRO, o Kanban e a Especificação do Projeto.
 
-> Eduardo Fonseca e Mateus Gonçalves - Contexto do projeto;
-> Pedro Henrique e Lucas Jesuíno - Projeto de Interface;
-> Alexandre Jurka e Yan Sabarense - Metodologia;
+> Eduardo Fonseca e Mateus Gonçalves - Contexto do projeto;,</br>
+> Pedro Henrique e Lucas Jesuíno - Projeto de Interface;</br>
+> Alexandre Jurka e Yan Sabarense - Metodologia;</br>
 > Yan Sabarense - Repositório de código.
 
 ## Ferramentas
