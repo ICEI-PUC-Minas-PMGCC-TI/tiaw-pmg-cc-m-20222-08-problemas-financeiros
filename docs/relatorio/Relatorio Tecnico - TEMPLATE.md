@@ -310,48 +310,37 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Além das funções pré-definidas abaixo, todos os membros do grupo participaram da elaboração de determinadas partes do projeto, como o MIRO, o Kanban e a Especificação do Projeto.
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+> Eduardo Fonseca e Mateus Gonçalves - Contexto do projeto;
+> Pedro Henrique e Lucas Jesuíno - Projeto de Interface;
+> Alexandre Jurka e Yan Sabarense - Metodologia;
+> Yan Sabarense - Repositório de código.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPX3rVJU=/ | 
+|Editor de código | Visual Studio Code | https://code.visualstudio.com/ |
+|Reunião diária | Discord | https://discord.com/ | 
+|Quadro de tarefas | Trello | https://trello.com/b/0K8jvN21/kanban |  
+|Processo de Design Thinkgin  | MIRO |  https://miro.com/app/board/uXjVPX3rVJU=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-08-problemas-financeiros | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com |
+|Protótipo Interativo | Figma | https://figma.com/XXXXXXX | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
 > As ferramentas empregadas no projeto são:
-> 
+ 
 > - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
+> - Ferramentas de comunicação.
+> - Ferramentas de diagramação.
+> - Plataforma de hospedagem.
+ 
 > O editor de código foi escolhido porque ele possui uma integração com o
 > sistema de versão. As ferramentas de comunicação utilizadas possuem
 > integração semelhante e por isso foram selecionadas. Por fim, para criar
 > diagramas utilizamos essa ferramenta por melhor captar as
 > necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
