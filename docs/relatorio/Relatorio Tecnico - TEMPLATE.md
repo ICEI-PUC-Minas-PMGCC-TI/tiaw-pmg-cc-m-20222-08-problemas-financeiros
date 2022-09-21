@@ -56,16 +56,16 @@ Yan Sabarense
 
 
 # Introdução 
-Você já deve ter ouvido de seus pais e de familiares sobre problemas financeiros, na
-qual eles explicam que não podemos gastar tudo que ganhamos ou até mesmo o
-que não temos pois é assim que começa um problema financeiro pela falta de
-planejamento, e assim vira uma bola de neve, quando começa você acha que está
-tranquilo, mas quando se tocar vai perceber o problema que você colocou em sua
-vida por conta de baixo nível de educação financeira. De acordo com os resultados
-de um estudo, apenas uma parcela de 33% da população mundial domina três dos
-quatro conceitos abordados na pesquisa e pode ser considerada educada
-financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de
-pessoas, têm baixo nível de educação financeira.
+>Você já deve ter ouvido de seus pais e de familiares sobre problemas financeiros, na
+>qual eles explicam que não podemos gastar tudo que ganhamos ou até mesmo o
+>que não temos pois é assim que começa um problema financeiro pela falta de
+>planejamento, e assim vira uma bola de neve, quando começa você acha que está
+>tranquilo, mas quando se tocar vai perceber o problema que você colocou em sua
+>vida por conta de baixo nível de educação financeira. De acordo com os resultados
+>de um estudo, apenas uma parcela de 33% da população mundial domina três dos
+>quatro conceitos abordados na pesquisa e pode ser considerada educada
+>financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de
+>pessoas, têm baixo nível de educação financeira.
 
 ## Problema
 
