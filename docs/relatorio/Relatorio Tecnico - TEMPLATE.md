@@ -70,21 +70,21 @@ pessoas, têm baixo nível de educação financeira.
 
 ## Problema
 
-*Uso inadequado do cartão de crédito: Muitos brasileiros abusam do cartão de
-crédito em compras parceladas e de alto valor.
-
-*Investimentos mal planejados: Alguns investimentos possuem alto risco, isso pode
-gerar uma perda de dinheiro repentina ou até mesmo de patrimônio.
-
-*A falta de corte de despesas: Na qual você não saber qual a prioridade no momento
-você vai acabar gastando mais podendo resultar em problemas financeiros.
-
-*Um dos problemas financeiros mais comuns nos negócios é a gestão ineficiente do
-fluxo de caixa, o fluxo de caixa trata-se, basicamente, do mapeamento da
-movimentação financeira de uma empresa.
-
-
-
+>* Uso inadequado do cartão de crédito: Muitos brasileiros abusam do cartão de
+>crédito em compras parceladas e de alto valor.
+>
+>* Investimentos mal planejados: Alguns investimentos possuem alto risco, isso pode
+>gerar uma perda de dinheiro repentina ou até mesmo de patrimônio.
+>
+>* A falta de corte de despesas: Na qual você não saber qual a prioridade no momento
+>você vai acabar gastando mais podendo resultar em problemas financeiros.
+>
+>* Um dos problemas financeiros mais comuns nos negócios é a gestão ineficiente do
+>fluxo de caixa, o fluxo de caixa trata-se, basicamente, do mapeamento da
+>movimentação financeira de uma empresa.
+>
+>
+>
 >
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -292,25 +292,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-A metodologia adotada pelo grupo foi baseada em multiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
-de maneira mais dinâminca.
+>A metodologia adotada pelo grupo foi baseada em multiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
+>de maneira mais dinâminca.
+>
+>Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
+>acompanhada por todos, com reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
+>individualmente ou em dupla, quando julgado necessário pelo grupo.
+>
+>A elaboração da entrevista foi realizada pelo grupo focando a qualidade e não a quantidade. Diversas perguntas foram elaboradas, mas no
+>final apenas seis foram escolhidas para a realização da entrevista. Cada integrante do grupo foi conduzido a realizar pelo menos uma
+>entrevista.
+>
+>As ferramentas utilizadas foram:
 
-Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
-acompanhada por todos, com reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
-individualmente ou em dupla, quando julgado necessário pelo grupo.
-
-A elaboração da entrevista foi realizada pelo grupo focando a qualidade e não a quantidade. Diversas perguntas foram elaboradas, mas no
-final apenas seis foram escolhidas para a realização da entrevista. Cada integrante do grupo foi conduzido a realizar pelo menos uma
-entrevista.
-
-As ferramentas utilizadas foram:
-
-- GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.
-- Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
- discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
-- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
-- Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow.
-
+>- GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.
+>- Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
+> discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
+>- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
+>- Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow.
+>
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
 > a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
