@@ -55,22 +55,36 @@ Yan Sabarense
 - [Referências](#referências)
 
 
-# Introdução
+# Introdução 
+Você já deve ter ouvido de seus pais e de familiares sobre problemas financeiros, na
+qual eles explicam que não podemos gastar tudo que ganhamos ou até mesmo o
+que não temos pois é assim que começa um problema financeiro pela falta de
+planejamento, e assim vira uma bola de neve, quando começa você acha que está
+tranquilo, mas quando se tocar vai perceber o problema que você colocou em sua
+vida por conta de baixo nível de educação financeira. De acordo com os resultados
+de um estudo, apenas uma parcela de 33% da população mundial domina três dos
+quatro conceitos abordados na pesquisa e pode ser considerada educada
+financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de
+pessoas, têm baixo nível de educação financeira.
+
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+*Uso inadequado do cartão de crédito: Muitos brasileiros abusam do cartão de
+crédito em compras parceladas e de alto valor.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
+*Investimentos mal planejados: Alguns investimentos possuem alto risco, isso pode
+gerar uma perda de dinheiro repentina ou até mesmo de patrimônio.
+
+*A falta de corte de despesas: Na qual você não saber qual a prioridade no momento
+você vai acabar gastando mais podendo resultar em problemas financeiros.
+
+*Um dos problemas financeiros mais comuns nos negócios é a gestão ineficiente do
+fluxo de caixa, o fluxo de caixa trata-se, basicamente, do mapeamento da
+movimentação financeira de uma empresa.
+
+
+
 >
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
