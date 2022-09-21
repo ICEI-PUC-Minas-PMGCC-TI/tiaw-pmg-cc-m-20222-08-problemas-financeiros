@@ -93,8 +93,6 @@ movimentação financeira de uma empresa.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 > Aqui você deve descrever os obj
 > objetivo geral é desenvolver ua
 > apresentado acima. Apresente também alguns (pelo menos 2) objetivos
@@ -106,35 +104,25 @@ movimentação financeira de uma empresa.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
+> O principal objetivo de uma educação financeira consistente é tornar o indivíduo consciente para todas as decisões que envolvam dinheiro,
+> logo, ela consegue fazer com que a pessoa esteja totalmente ciente das oportunidades e dos riscos envolvidos nas escolhas que pode fazer.
+> A educação financeira é uma habilidade prática importante para a nossa vida cotidiana.
+> Afinal, ela nos ajuda a evitar dívidas, controlar o orçamento de todo o mês, guardar dinheiro e conquistar objetivos.
+> Para que serve o planejamento financeiro? O planejamento financeiro é essencial para que uma empresa ou pessoa consiga tomar decisões estratégicas para atingir os seus objetivos de curto, médio e longo prazo. 
+> É a partir dele que um companhia ou pessoa fisica consegue acompanhar com precisão os seus gastos, faturamento e lucro.
+ 
+**Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
+> O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salarios minimos ou aposentadas.
+> A falta de consciência em crianças e jovens brasileiros produz uma população adulta que não sabe lidar com dinheiro. 
+> O resultado disso é uma bola de neve que só tende a crescer em que brasileiros assumem dívidas cada dia mais altas para tentar contornar sua situação
+> O perfil financeiro é o conjunto de características que cada pessoa possui no momento de lidar com o próprio dinheiro. 
+> Existem, desse modo, pessoas mais conservadoras, outras mais ousadas, umas mais “gastonas” e outras mais econômicas.
+> Sendo nosso público-Alvo, aqueles que, mesmo com uma baixa renda procuram um método de controlar melhor seu dinheiro, fugir das dividas, em busca por conhecimento economico e financeiro a fim de proteger ou aumentar seu patrimonio.
 >
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
