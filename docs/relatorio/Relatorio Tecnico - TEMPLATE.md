@@ -92,8 +92,7 @@ pessoas, têm baixo nível de educação financeira.
 
 ## Objetivos
 
-> Objetivo:
->O nosso objetivo é dar um suporte, educação financeira, segurança e como planejar as despesas, na qual vão >te ajudar a prevenir a não ter um problema financeiro. Com total foco nos personas na qual desenvolvemos,>sabemos de alguns problemas e nos vamos priorizar em resolvê-los .
+>O nosso objetivo é dar um suporte, educação financeira, segurança e como planejar as despesas, na qual vão te ajudar a prevenir a não ter um problema financeiro. Com total foco nos personas na qual desenvolvemos, sabemos de alguns problemas e vamos priorizar em resolvê-los .
 >
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
