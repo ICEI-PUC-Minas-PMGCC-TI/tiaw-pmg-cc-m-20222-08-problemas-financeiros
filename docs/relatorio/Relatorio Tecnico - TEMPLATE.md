@@ -116,12 +116,12 @@ movimentação financeira de uma empresa.
 
 ## Público-Alvo
 
-> O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salarios minimos ou aposentadas.
+> O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salários mínimos ou aposentadas.
 > A falta de consciência em crianças e jovens brasileiros produz uma população adulta que não sabe lidar com dinheiro. 
 > O resultado disso é uma bola de neve que só tende a crescer em que brasileiros assumem dívidas cada dia mais altas para tentar contornar sua situação
 > O perfil financeiro é o conjunto de características que cada pessoa possui no momento de lidar com o próprio dinheiro. 
 > Existem, desse modo, pessoas mais conservadoras, outras mais ousadas, umas mais “gastonas” e outras mais econômicas.
-> Sendo nosso público-Alvo, aqueles que, mesmo com uma baixa renda procuram um método de controlar melhor seu dinheiro, fugir das dividas, em busca por conhecimento economico e financeiro a fim de proteger ou aumentar seu patrimonio.
+> Sendo nosso público-alvo, aqueles que, mesmo com uma baixa renda procuram um método de controlar melhor seu dinheiro, fugir das dívidas, em busca por conhecimento econômico e financeiro a fim de proteger ou aumentar seu patrimônio.
 >
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
