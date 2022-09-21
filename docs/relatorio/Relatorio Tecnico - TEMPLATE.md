@@ -93,12 +93,9 @@ pessoas, têm baixo nível de educação financeira.
 
 ## Objetivos
 
-> Aqui você deve descrever os obj
-> objetivo geral é desenvolver ua
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
+> Objetivo:
+>O nosso objetivo é dar um suporte, educação financeira, segurança e como planejar as despesas, na qual vão >te ajudar a prevenir a não ter um problema financeiro. Com total foco nos personas na qual desenvolvemos,>sabemos de alguns problemas e nos vamos priorizar em resolvê-los .
+>
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
