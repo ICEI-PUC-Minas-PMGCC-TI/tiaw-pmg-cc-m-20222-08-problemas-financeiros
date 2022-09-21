@@ -95,8 +95,8 @@ movimentação financeira de uma empresa.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
+> Aqui você deve descrever os obj
+> objetivo geral é desenvolver ua
 > apresentado acima. Apresente também alguns (pelo menos 2) objetivos
 > específicos dependendo de onde você vai querer concentrar a sua
 > prática investigativa, ou como você vai aprofundar no seu trabalho.
