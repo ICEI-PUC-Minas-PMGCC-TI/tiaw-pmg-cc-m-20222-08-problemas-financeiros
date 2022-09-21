@@ -67,7 +67,6 @@ quatro conceitos abordados na pesquisa e pode ser considerada educada
 financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de
 pessoas, têm baixo nível de educação financeira.
 
-
 ## Problema
 
 >* Uso inadequado do cartão de crédito: Muitos brasileiros abusam do cartão de
@@ -299,23 +298,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >entrevista.
 >
 >As ferramentas utilizadas foram:
-
+>
 >- GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.
 >- Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
 > discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
 >- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
 >- Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow.
 >
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
 > **Links Úteis**:
 > - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
 > - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
