@@ -133,6 +133,14 @@ Yan Sabarense
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
+> Primeira Persona
+
+>![Primeira Persona](immages/../images/persona_cynthia.jpg)
+
+
+> Segunda Persona
+
+>![Segunda persona](immages/../images/persona_joao_lombardi.jpg)
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -150,10 +158,6 @@ Yan Sabarense
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
 > 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
