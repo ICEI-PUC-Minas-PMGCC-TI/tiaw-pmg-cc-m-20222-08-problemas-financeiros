@@ -298,7 +298,7 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 |Processo de Design Thinkgin  | MIRO |  https://miro.com/app/board/uXjVPX3rVJU=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-08-problemas-financeiros | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com |
-|Protótipo Interativo | Figma | https://www.figma.com/file/B3EFj0lbO0bA3vw2K83qzt/Problemas-Financeiros-v1.0?node-id=0%3A1 | 
+|Protótipo Interativo | Figma | https://www.figma.com/proto/B3EFj0lbO0bA3vw2K83qzt/Problemas-Financeiros-v1.0?node-id=1%3A5&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A5 | 
 
 > As ferramentas empregadas no projeto são:
  
