@@ -348,7 +348,7 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 ## Controle de Versão
 
-> A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/) e o </br>
+> A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/) e o
 [GitHubDesktop](https://desktop.github.com/), sendo que o [Github](https://github.com)
 > foi utilizado para hospedagem do repositório `upstream`.
 > 
