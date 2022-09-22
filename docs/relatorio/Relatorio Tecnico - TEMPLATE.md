@@ -265,6 +265,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Exemplo**:
 > 
 > ![UserFlow Completo](images/userflow-problemas-financeiros.pdf)
+> ![Exemplo de Useflow](images/userflow.png)
 > 
 > 
 
