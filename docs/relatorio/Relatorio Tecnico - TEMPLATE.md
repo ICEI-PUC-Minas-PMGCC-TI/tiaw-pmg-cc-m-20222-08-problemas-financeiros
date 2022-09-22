@@ -298,7 +298,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 >As ferramentas utilizadas foram:
 >
+>- Git: Sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
 >- GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.
+>- GitHubDesktop: Aplicativo que permite que você interaja com o GitHub usando uma GUI em vez da linha de comando ou de um navegador web
 >- Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
 > discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
 >- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
@@ -346,8 +348,8 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 ## Controle de Versão
 
-> A ferramenta de controle de versão adotada no projeto foi o
-> [GitHubDesktop](https://desktop.github.com/), sendo que o [Github](https://github.com)
+> A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/) e o </br>
+[GitHubDesktop](https://desktop.github.com/), sendo que o [Github](https://github.com)
 > foi utilizado para hospedagem do repositório `upstream`.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
