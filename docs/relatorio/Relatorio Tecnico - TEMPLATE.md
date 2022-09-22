@@ -1,7 +1,7 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-Digital Finance!
+Finance First!
 
 `CURSO` 
 
@@ -81,21 +81,10 @@ Yan Sabarense
 >* Um dos problemas financeiros mais comuns nos negócios é a gestão ineficiente do
 >fluxo de caixa, o fluxo de caixa trata-se, basicamente, do mapeamento da
 >movimentação financeira de uma empresa.
->
->
->
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
 >O nosso objetivo é dar um suporte, educação financeira, segurança e como planejar as despesas, na qual vão te ajudar a prevenir a não ter um problema financeiro. Com total foco nos personas na qual desenvolvemos, sabemos de alguns problemas e vamos priorizar em resolvê-los .
->
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -105,9 +94,6 @@ Yan Sabarense
 > Afinal, ela nos ajuda a evitar dívidas, controlar o orçamento de todo o mês, guardar dinheiro e conquistar objetivos.
 > Para que serve o planejamento financeiro? O planejamento financeiro é essencial para que uma empresa ou pessoa consiga tomar decisões estratégicas para atingir os seus objetivos de curto, médio e longo prazo. 
 > É a partir dele que um companhia ou pessoa fisica consegue acompanhar com precisão os seus gastos, faturamento e lucro.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -117,10 +103,6 @@ Yan Sabarense
 > O perfil financeiro é o conjunto de características que cada pessoa possui no momento de lidar com o próprio dinheiro. 
 > Existem, desse modo, pessoas mais conservadoras, outras mais ousadas, umas mais “gastonas” e outras mais econômicas.
 > Sendo nosso público-alvo, aqueles que, mesmo com uma baixa renda procuram um método de controlar melhor seu dinheiro, fugir das dívidas, em busca por conhecimento econômico e financeiro a fim de proteger ou aumentar seu patrimônio.
->
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
@@ -253,21 +235,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## User Flow
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
+> mapear o fluxo de telas do site ou app. Essa técnica funciona
 > para alinhar os caminhos e as possíveis ações que o usuário pode
 > fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 >
 > **Exemplo**:
 > 
 > ![UserFlow Completo](images/userflow-problemas-financeiros.pdf)
 > ![Exemplo de Useflow](images/userflow.png)
-> 
-
 
 ## Wireframes
 
@@ -275,12 +250,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > estrutura de um site web e seu relacionamentos entre suas
 > páginas. Um wireframe web é uma ilustração semelhante ao
 > layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 > 
 > **Exemplo**:
 > 
@@ -309,12 +278,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
 >- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
 >- Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow.
->
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Divisão de Papéis
 
@@ -335,7 +298,7 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 |Processo de Design Thinkgin  | MIRO |  https://miro.com/app/board/uXjVPX3rVJU=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-08-problemas-financeiros | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com |
-|Protótipo Interativo | Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | Figma | https://www.figma.com/file/B3EFj0lbO0bA3vw2K83qzt/Problemas-Financeiros-v1.0?node-id=0%3A1 | 
 
 > As ferramentas empregadas no projeto são:
  
@@ -369,11 +332,6 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > - `bugfix`: uma funcionalidade encontra-se com problemas
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
 >
 > **Exemplo - GitHub Feature Branch Workflow**:
 >
