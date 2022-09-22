@@ -105,8 +105,8 @@ Yan Sabarense
 > Afinal, ela nos ajuda a evitar dívidas, controlar o orçamento de todo o mês, guardar dinheiro e conquistar objetivos.
 > Para que serve o planejamento financeiro? O planejamento financeiro é essencial para que uma empresa ou pessoa consiga tomar decisões estratégicas para atingir os seus objetivos de curto, médio e longo prazo. 
 > É a partir dele que um companhia ou pessoa fisica consegue acompanhar com precisão os seus gastos, faturamento e lucro.
- 
-**Links Úteis**:
+>
+> **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
