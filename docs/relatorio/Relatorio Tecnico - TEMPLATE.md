@@ -118,7 +118,7 @@ Yan Sabarense
 > Primeira Persona
 
 >![Primeira Persona](immages/../images/persona_cynthia.jpg)
->![Mapa de empatia](immages/../images/mapa de empatia.png)
+>![Mapa de empatia](immages/../images/mapa-cynthia.png)
 
 
 > Segunda Persona
