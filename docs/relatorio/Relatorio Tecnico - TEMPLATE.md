@@ -124,7 +124,7 @@ Yan Sabarense
 > Segunda Persona
 
 >![Segunda persona](immages/../images/persona_joao_lombardi.jpg)
->![Mapa de empatia](immages/../images/mapa- joao.png)
+>![Mapa de empatia](immages/../images/mapa-joao.png)
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
