@@ -56,8 +56,8 @@ Yan Sabarense
 
 
 # Introdução 
->Problemas financeiros afetam grande parcela da população, visto que compõe uma parte significativa de nossas vidas. Por isso, é essencial sabermos gerenciar os nossos >recursos financeiros e termos uma relação saudável com o dinheiro para conservar a saúde mental. 
->De acordo com os resultados de um estudo, apenas uma parcela de 33% da população mundial domina três dos quatro conceitos abordados na pesquisa e pode ser >considerada educada financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de pessoas, têm baixo nível de educação financeira.
+>Problemas financeiros afetam grande parcela da população, visto que compõe uma parte significativa de nossas vidas. Por isso, é essencial sabermos gerenciar os nossos recursos financeiros e termos uma relação saudável com o dinheiro para conservar a saúde mental. 
+>De acordo com os resultados de um estudo, apenas uma parcela de 33% da população mundial domina três dos quatro conceitos abordados na pesquisa e pode ser considerada educada financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de pessoas, têm baixo nível de educação financeira.
 
 ## Problema
 
