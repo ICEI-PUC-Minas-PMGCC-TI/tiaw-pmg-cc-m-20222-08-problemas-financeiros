@@ -221,7 +221,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
->A metodologia adotada pelo grupo foi baseada em múltiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
+>A metodologia adotada pelo grupo foi baseada em múltiplas ferramentas de trabalho, dessa forma podemos diversificar as funções no grupo
 >de maneira mais dinâmica.
 >
 >Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
