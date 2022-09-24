@@ -61,6 +61,8 @@ Yan Sabarense
 
 ## Problema
 
+>Conforme exposto, o problema que se busca resolver com este projeto são os problemas financeiros das personas criadas por nós. Dentre eles, podemos citar:
+>
 >* Uso inadequado do cartão de crédito: Muitos brasileiros abusam do cartão de
 >crédito em compras parceladas e de alto valor.
 >
@@ -89,7 +91,7 @@ Yan Sabarense
 
 ## Público-Alvo
 
->Embora todas as pessoas possam se beneficiar de soluções isentas para se informarem, o foco deste trabalho está no público que tem o problemas financeiros e/ou busca >conhecimento na área.
+>Embora todas as pessoas possam se beneficiar de soluções isentas para se informarem, o foco deste trabalho está no público que tem o problemas financeiros e/ou busca conhecimento na área.
 > O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salários mínimos ou aposentadas.
  
 # Especificações do Projeto
@@ -215,7 +217,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 >
->Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o >projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+>Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 >  
 >  
 ## User Flow
