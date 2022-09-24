@@ -84,7 +84,7 @@ Yan Sabarense
 
 ## Objetivos
 
->O nosso objetivo é dar um suporte, educação financeira, segurança e como planejar as despesas, na qual vão te ajudar a prevenir a não ter um problema financeiro. Com total foco nos personas na qual desenvolvemos, sabemos de alguns problemas e vamos priorizar em resolvê-los .
+>O objetivo geral deste trabalho é a criação de um site que apresente ferramentas de fácil uso e que permita o acesso por parte do usuário a um universo variado de informações sobre finanças e gerenciamento de recursos. Dessa forma, te ajudará a prevenir um problema financeiro. Com total foco nos problemas das personas na qual desenvolvemos,  vamos priorizar em resolvê-los.
 
 ## Justificativa
 
