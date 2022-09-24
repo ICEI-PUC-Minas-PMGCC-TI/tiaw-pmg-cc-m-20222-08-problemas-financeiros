@@ -82,12 +82,9 @@ Yan Sabarense
 
 ## Justificativa
 
-> O principal objetivo de uma educação financeira consistente é tornar o indivíduo consciente para todas as decisões que envolvam dinheiro,
-> logo, ela consegue fazer com que a pessoa esteja totalmente ciente das oportunidades e dos riscos envolvidos nas escolhas que pode fazer.
-> A educação financeira é uma habilidade prática importante para a nossa vida cotidiana.
-> Afinal, ela nos ajuda a evitar dívidas, controlar o orçamento de todo o mês, guardar dinheiro e conquistar objetivos.
-> Para que serve o planejamento financeiro? O planejamento financeiro é essencial para que uma empresa ou pessoa consiga tomar decisões estratégicas para atingir os seus objetivos de curto, médio e longo prazo. 
-> É a partir dele que um companhia ou pessoa fisica consegue acompanhar com precisão os seus gastos, faturamento e lucro.
+>A educação financeira é importante para pessoas em qualquer faixa de renda, que buscam tranquilidade e segurança material para aproveitar a vida da maneira que acharem mais conveniente. Saber ganhar, economizar e investir os seus recursos é a melhor maneira de garantir essa segurança.
+>Além disso, minimizará a possibilidade de possíveis problemas financeiros e problemas no âmbito econômico.
+>
 
 ## Público-Alvo
 
