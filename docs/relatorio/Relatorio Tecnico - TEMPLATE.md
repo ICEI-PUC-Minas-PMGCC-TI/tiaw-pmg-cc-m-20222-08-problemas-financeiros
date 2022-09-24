@@ -152,7 +152,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Cynthia             | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
@@ -226,14 +226,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 # Projeto de Interface
-
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
-
+>
+>Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o >projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+>  
+>  
 ## User Flow
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
@@ -260,8 +256,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
->A metodologia adotada pelo grupo foi baseada em multiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
->de maneira mais dinâminca.
+>A metodologia adotada pelo grupo foi baseada em múltiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
+>de maneira mais dinâmica.
 >
 >Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
 >acompanhada por todos, com reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
