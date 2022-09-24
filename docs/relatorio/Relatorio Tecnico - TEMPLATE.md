@@ -56,16 +56,8 @@ Yan Sabarense
 
 
 # Introdução 
->Você já deve ter ouvido de seus pais e de familiares sobre problemas financeiros, na
->qual eles explicam que não podemos gastar tudo que ganhamos ou até mesmo o
->que não temos pois é assim que começa um problema financeiro pela falta de
->planejamento, e assim vira uma bola de neve, quando começa você acha que está
->tranquilo, mas quando se tocar vai perceber o problema que você colocou em sua
->vida por conta de baixo nível de educação financeira. De acordo com os resultados
->de um estudo, apenas uma parcela de 33% da população mundial domina três dos
->quatro conceitos abordados na pesquisa e pode ser considerada educada
->financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de
->pessoas, têm baixo nível de educação financeira.
+>Problemas financeiros afetam grande parcela da população, visto que compõe uma parte significativa de nossas vidas. Por isso, é essencial sabermos gerenciar os nossos >recursos financeiros e termos uma relação saudável com o dinheiro para conservar a saúde mental. 
+>De acordo com os resultados de um estudo, apenas uma parcela de 33% da população mundial domina três dos quatro conceitos abordados na pesquisa e pode ser >considerada educada financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de pessoas, têm baixo nível de educação financeira.
 
 ## Problema
 
@@ -97,12 +89,8 @@ Yan Sabarense
 
 ## Público-Alvo
 
+>Embora todas as pessoas possam se beneficiar de soluções isentas para se informarem, o foco deste trabalho está no público que tem o problemas financeiros e/ou busca >conhecimento na área.
 > O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salários mínimos ou aposentadas.
-> A falta de consciência em crianças e jovens brasileiros produz uma população adulta que não sabe lidar com dinheiro. 
-> O resultado disso é uma bola de neve que só tende a crescer em que brasileiros assumem dívidas cada dia mais altas para tentar contornar sua situação
-> O perfil financeiro é o conjunto de características que cada pessoa possui no momento de lidar com o próprio dinheiro. 
-> Existem, desse modo, pessoas mais conservadoras, outras mais ousadas, umas mais “gastonas” e outras mais econômicas.
-> Sendo nosso público-alvo, aqueles que, mesmo com uma baixa renda procuram um método de controlar melhor seu dinheiro, fugir das dívidas, em busca por conhecimento econômico e financeiro a fim de proteger ou aumentar seu patrimônio.
  
 # Especificações do Projeto
 
