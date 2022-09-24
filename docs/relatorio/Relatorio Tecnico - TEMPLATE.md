@@ -93,11 +93,7 @@ Yan Sabarense
  
 # Especificações do Projeto
 
-A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+>A definição do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho feito pelos membros da equipe a partir da observação dos usuários por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de >usuários.
 
 ## Personas e Mapas de Empatia
 
@@ -115,7 +111,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Histórias de Usuários
 
-Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`|    QUERO/PRECISO ... `FUNCIONALIDADE`   |         PARA ... `MOTIVO/VALOR`        |
 |--------------------|-----------------------------------------|----------------------------------------|
@@ -136,8 +132,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre-se | ALTA | 
+|RF-002| Emitir um tipo de perfil para o usuário | MÉDIA |
+|RF-003| Permitir a recuperação de senha | ALTO |
+|RF-004| Controle de gastos | ALTO |
+|RF-005| Conversor de moedas | BAIXO|
 
 
 ### Requisitos não Funcionais
