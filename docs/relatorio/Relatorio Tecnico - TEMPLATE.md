@@ -89,11 +89,11 @@ Yan Sabarense
 ## Público-Alvo
 
 >Embora todas as pessoas possam se beneficiar de soluções isentas para se informarem, o foco deste trabalho está no público que tem o problemas financeiros e/ou busca conhecimento na área.
-> O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salários mínimos ou aposentadas.
+>O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salários mínimos ou aposentadas.
  
 # Especificações do Projeto
 
->A definição do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho feito pelos membros da equipe a partir da observação dos usuários por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de >usuários.
+>A definição do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho feito pelos membros da equipe a partir da observação dos usuários por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas e Mapas de Empatia
 
