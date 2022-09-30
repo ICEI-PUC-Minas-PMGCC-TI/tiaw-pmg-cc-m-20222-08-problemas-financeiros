@@ -136,8 +136,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Emitir um tipo de perfil para o usuário | MÉDIA |
 |RF-003| Permitir a recuperação de senha | ALTO |
 |RF-004| Controle de gastos | ALTO |
-|RF-005| Conversor de moedas | BAIXO|
-
+|RF-005| Conversor de moedas | BAIXO |
+|RF-006| Gráfico de controle | ALTA |
+|RF-007| Central de suporte | ALTA |
+|RF-008| Avisos de risco | ALTO |
+|RF-009| Guias sobre educação financeira | MÉDIA |
 
 ### Requisitos não Funcionais
 
