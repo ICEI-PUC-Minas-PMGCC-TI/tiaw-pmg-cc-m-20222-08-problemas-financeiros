@@ -12,6 +12,7 @@ Esse projeto visa instruir e auxiliar pessoas que sofrem ou estão propensas a s
 * Mateus Gonçalves
 * Pedro Henrique
 * Yan Sabarense 
+* Lucas Jhony da Silva
 
 ## Professores responsáveis
 
