@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/styleContatos.css">    
+</head>
+
+<body onload="imprimaCidadesCategorias();ListaContatos()">
+    <h1>Listagem de Contatos</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="msg" class="col-sm-2 offset-sm-10 ">
+                <a href="cadastro.html"><input type="button" class="btn btn-warning" id="btnClear" value="Cadastro"></a>
+            </div>
+        </div>        
+        
+        <form id="form-contato">            
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()" class="form-control">
+                        
+                    </select>                    
+                </div>
+                <div class="col-sm-8">
+                    <select name="filtro_categoria" id="filtro_categoria" onchange="ListaContatos()"  class="form-control">
+                        
+                    </select>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Categoria</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/scripts/cadastro.js"></script>
+    <script>
+        // FUNÇÃO PARA IMPRIMIR AS CIDADES E CATEGORIAS DISPONÍVEIS
+        function imprimaCidadesCategorias(){
+            let dropDown = document.querySelector('select#filtro_cidade');
+            dropDown.innerHTML += `<option value="">Selecione a Cidade</option>`;
+            let cidades = ``;
+            let strAux
+            let strAux2;
+            for(let c = 0; c < db.dados.contas.length; c++){
+                if(!cidades.includes(db.dados.contas[c].cidade)){
+                    cidades += db.dados.contas[c].cidade;
+                    strAux = db.dados.contas[c].cidade;
+                    strAux2 = strAux.charAt(0).toUpperCase() + strAux.slice(1);
+                    dropDown.innerHTML += `<option value="${db.dados.contas[c].cidade}">${strAux2}</option>`;
+                }
+            }
+
+            dropDown = document.querySelector('select#filtro_categoria');
+            dropDown.innerHTML += `<option value="">Selecione a Categoria</option>`;
+            let categorias = ``;
+            strAux
+            strAux2;
+            for(let c = 0; c < db.dados.contas.length; c++){
+                if(!categorias.includes(db.dados.contas[c].categoria)){
+                    categorias += db.dados.contas[c].categoria;
+                    strAux = db.dados.contas[c].categoria;
+                    strAux2 = strAux.charAt(0).toUpperCase() + strAux.slice(1);
+                    dropDown.innerHTML += `<option value="${db.dados.contas[c].categoria}">${strAux2}</option>`;
+                }
+            }
+        }
+
+        // função para listar na tabela os contatos que estão associados aos filtros 
+        function ListaContatos() {
+            
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_cidade').value;
+            let fcg = document.getElementById('filtro_categoria').value;
+
+            // limpa a lista de contatos apresentados
+            $("#table-contatos").empty();
+
+            // Popula a tabela com os registros do banco de dados
+            for (let index = 0; index < db.dados.contas.length; index++) {
+                const contato = db.dados.contas[index];
+
+                // Verifica se os dados do contato batem com os filtros
+                if (((contato.cidade == fc) || (fc == '')) &&
+                    ((contato.categoria == fcg) || (fcg == ''))) {
+                    
+                    // Inclui o contato na tabela    
+                    $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                    <td>${contato.nome}</td>
+                                                    <td>${contato.telefone}</td>
+                                                    <td>${contato.email}</td>
+                                                    <td>${contato.cidade}</td>
+                                                    <td>${contato.categoria}</td>
+                                                </tr>`);
+                }
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

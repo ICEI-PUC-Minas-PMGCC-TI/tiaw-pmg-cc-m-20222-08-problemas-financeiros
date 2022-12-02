@@ -1,0 +1,36 @@
+header.extrato > h1{
+    max-width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+#tabela-extrato{
+    max-width: 500px;
+    margin: 10px auto;
+}
+div#seletor-cliente{
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+}
+div#seletor-tabela{
+    max-width: 500px;
+    margin: auto 0px !important;
+    padding: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    #tabela-extrato{
+        max-width: 90%;
+    }
+}
+
+div#escolhas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button.btn-secondary{
+    height: 38px;
+    width: 137px;
+    margin: auto 0px;
+}
