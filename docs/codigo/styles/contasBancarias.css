@@ -1,0 +1,81 @@
+h1.titulo{
+    display: block;
+    max-width: 100%;
+    margin: 30px auto;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+div#formularioContas{
+    margin: 30px;
+    max-width: 100%;
+}
+
+div.input-group {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+div#formularioContas > p{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+div#formularioContas > p > input{
+    width: 100%;
+}
+
+div#formularioContas > button{
+    display: block;
+    margin: 10px auto;
+}
+
+div.infoDados{
+    display: flex;
+    max-width: 100%;
+    margin: 30px;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+div#tela{
+    width: 100%;
+    display: inline;
+}
+
+div#tela > table{
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+
+header.cabecalho{
+    max-width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+div#botoesFormulario{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
