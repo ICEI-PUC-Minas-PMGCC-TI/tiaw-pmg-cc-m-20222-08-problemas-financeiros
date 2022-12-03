@@ -10,18 +10,32 @@ function displayMessage(msg) {
   $('#msg').html('<div class="alert alert-warning">' + msg + '</div>');
 }
 
+function generateUUID() { // Public Domain/MIT
+  var d = new Date().getTime();//Timestamp
+  var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16;//random number between 0 and 16
+      if(d > 0){//Use timestamp until depleted
+          r = (d + r)%16 | 0;
+          d = Math.floor(d/16);
+      } else {//Use microseconds since page-load if supported
+          r = (d2 + r)%16 | 0;
+          d2 = Math.floor(d2/16);
+      }
+      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+  });
+}
+
 function insertContato(contato) {
   // Calcula novo Id a partir do último código existente no array (PODE GERAR ERRO SE A BASE ESTIVER VAZIA)
-  let novoId = 1;
-  if (db.dados.contas.length != 0)
-    novoId = db.dados.contas[db.dados.contas.length - 1].id + 1;
+  let novoId = generateUUID();
   let novoContato = {
-    "id": novoId,
-    "nome": contato.nome,
-    "email": contato.email,
-    "telefone": contato.telefone,
-    "cidade": contato.cidade,
-    "categoria": contato.categoria
+    id: novoId,
+    nome: contato.nome,
+    email: contato.email,
+    telefone: contato.telefone,
+    cidade: contato.cidade,
+    categoria: contato.categoria
   };
 
   // Insere o novo objeto no array

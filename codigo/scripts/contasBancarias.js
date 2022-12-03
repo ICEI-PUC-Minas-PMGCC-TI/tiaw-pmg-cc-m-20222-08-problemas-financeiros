@@ -6,53 +6,46 @@ function atribuirBotoes(){
     document.getElementById('btnIncluirConta').addEventListener('click', incluaConta)
     document.getElementById('btnAtualizarConta').addEventListener('click', atualizeConta)
 }*/
+document.querySelector('div.comprimento').innerHTML = `<h6>Olá <span>${usuarioCorrente.nome}</span></h6>`;
+var objDados = leiaDados();
+
+function possuiConta(){
+    let possuiConta = false;
+    for(let c = 0; c < objDados.dados.contasBancarias.length; c++){
+        if(usuarioCorrente.nome == objDados.dados.contasBancarias[c].nome){
+            possuiConta = true;
+        }
+    }
+    if(possuiConta){
+        document.querySelector('button#btnCadastrar').style.display = 'none';
+    } else{
+        document.querySelector('button#btnAtualizar').style.display = 'none';
+    }
+}
+possuiConta();
+
+
 
 function imprimaFormularioCadastro(){
     let formulario=document.querySelector('#formularioContas');
-    let strHtml=`<div class="input-group mb-3">
-    <label class="input-group-text" for="inputGroupSelect01">Nome</label>
-    <select class="formulario-cadastrar form-select" id="inputGroupSelect01"></select>
-    </div>
-    <p>Número do Banco: <input type="text" id="campoNumeroBanco"></p>
-    <p>Agência: <input type="text" id="campoNumeroAgencia"></p>
-    <p>Número da Conta: <input type="text" id="campoNumeroConta"></p>
-    <button id="btnIncluirConta">Salvar Conta</button>`;
+    let strHtml=`
+        <p>Número do Banco: <input type="text" id="campoNumeroBanco"></p>
+        <p>Agência: <input type="text" id="campoNumeroAgencia"></p>
+        <p>Número da Conta: <input type="text" id="campoNumeroConta"></p>
+        <button id="btnIncluirConta">Salvar Conta</button>`;
     formulario.innerHTML=strHtml;
-    imprimaNomeCadastro()
 }
 
-function imprimaNomeAtualizar(){
-    let objDados = leiaDados();
-    let dropDown=document.querySelector('select.formulario-atualizar');
-    let strHtml=`<option selected>Selecione seu Nome</option>`;
-    for(let i = 0; i < objDados.dados.contasBancarias.length; i++){
-        strHtml+=`<option value="${objDados.dados.contasBancarias[i].nome}">${objDados.dados.contasBancarias[i].nome}</option>`;
-    }
-    dropDown.innerHTML=strHtml;
-}
-function imprimaNomeCadastro(){
-    let objDados = leiaDados();
-    let dropDown=document.querySelector('select.formulario-cadastrar');
-    let strHtml=`<option selected>Selecione seu Nome</option>`;
-    for(let i = 0; i < objDados.dados.contas.length; i++){
-        strHtml+=`<option value="${objDados.dados.contas[i].nome}">${objDados.dados.contas[i].nome}</option>`;
-    }
-    dropDown.innerHTML=strHtml;
-}
 
 
 function imprimaFormularioAtualizar(){
     let formulario=document.getElementById('formularioContas');
-    let strHtml=`<div class="input-group mb-3">
-    <label class="input-group-text" for="inputGroupSelect01">Nome</label>
-    <select class="formulario-atualizar form-select" id="inputGroupSelect01"></select>
-    </div>
+    let strHtml=`
     <p>Número do Banco: <input type="text" id="campoNumeroBanco"></p>
     <p>Agência: <input type="text" id="campoNumeroAgencia"></p>
     <p>Número da Conta: <input type="text" id="campoNumeroConta"></p>
     <button id="btnAtualizarConta">Atualizar Conta</button>`;
     formulario.innerHTML=strHtml;
-    imprimaNomeAtualizar();
 }
 
 function leiaDados(){
@@ -72,13 +65,12 @@ function salveDados (dados){
 }
 
 function incluaConta(){
-    let objDados=leiaDados();
+    objDados;
     //Nova Conta
     let strNumBanco = document.querySelector('input#campoNumeroBanco').value;
     let strAgencia = document.querySelector('input#campoNumeroAgencia').value;
     let strConta = document.querySelector('input#campoNumeroConta').value;
-    let selectElement = document.querySelector('select.formulario-cadastrar');
-    let nome = selectElement.value;
+    let nome = usuarioCorrente.nome;
     let ERRO = false;
     for(let i = 0; i < objDados.dados.contasBancarias.length;i++){
         if((objDados.dados.contasBancarias[i].nome == nome) || (nome == 'Selecione seu Nome')){
@@ -102,19 +94,18 @@ function incluaConta(){
         objDados.dados.contasBancarias.push(novaConta);
         //Salvar Dados
         salveDados(objDados);
-        //Atualizar Página
-        imprimaTabela();
+        //Avisa que o cadastro foi realizado com sucesso
+        alert("Conta cadastrada com sucesso!");
     }
 }
 
 function atualizeConta(){
-    let objDados=leiaDados();
+    objDados;
     //Atualização de dados
     let novoNumBanco=document.getElementById('campoNumeroBanco').value;
     let novoNumAgencia=document.getElementById('campoNumeroAgencia').value;
     let novoNumConta=document.getElementById('campoNumeroConta').value;
-    let selectElement=document.querySelector('select.formulario-atualizar');
-    let nome=selectElement.value;
+    let nome=usuarioCorrente.nome;
     let ERRO=(nome=='Selecione seu Nome');
     if(ERRO){
         alert('Por favor selecione o seu Nome!');
@@ -135,8 +126,8 @@ function atualizeConta(){
         objDados.dados.contasBancarias[i]=dadosAtualizados;
         //Salve Atualização
         salveDados(objDados);
-        //Imprima Nova Tabela
-        imprimaTabela();
+        //Avisa que a conta foi atualizada com sucesso
+        alert("Conta atualizada com sucesso!");
     }
 }
 
@@ -150,30 +141,11 @@ function idNome(nome,objDados){
     return id;
 }
 
-function imprimaTabela(){
-    let tela=document.getElementById('tela');
-    let strHtml=`<table><tr><th>ID do Cliente</th><th>Banco</th><th>Agência</th><th>Conta</th></tr>`;
-    let objDados=leiaDados();
-    for(let i = 0; i < objDados.dados.contasBancarias.length;i++){
-        strHtml+=`<tr><td>${objDados.dados.contasBancarias[i].nome}</td><td>${objDados.dados.contasBancarias[i].nBanco}</td><td>${objDados.dados.contasBancarias[i].nAgencia}</td><td>${objDados.dados.contasBancarias[i].nConta}</td></tr>`;
-    }
-    strHtml+=`</table>`;
-    tela.innerHTML=strHtml;
-}
-
-
-function escondaDados(){
-    let tela=document.getElementById('tela');
-    let strHtml='';
-    tela.innerHTML=strHtml;
-}
 
 
 
 // Script Botões
 
-document.getElementById('btnCarregaDados').addEventListener('click',imprimaTabela);
-document.getElementById('btnEscondeDados').addEventListener('click', escondaDados);
 document.querySelector('button#btnCadastrar').addEventListener('click', function (){
     imprimaFormularioCadastro();
     document.querySelector('button#btnIncluirConta').addEventListener('click', incluaConta);

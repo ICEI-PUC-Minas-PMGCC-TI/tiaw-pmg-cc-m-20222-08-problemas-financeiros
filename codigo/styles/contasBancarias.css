@@ -1,7 +1,12 @@
+body{
+    background-color: rgb(34, 34, 34) !important;
+}
+
 h1.titulo{
     display: block;
     max-width: 100%;
     margin: 30px auto;
+    color: white;
 }
 table {
     font-family: arial, sans-serif;

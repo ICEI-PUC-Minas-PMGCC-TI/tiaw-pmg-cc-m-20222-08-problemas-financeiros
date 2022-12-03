@@ -18,6 +18,17 @@ div#seletor-tabela{
     padding: 15px;
 }
 
+div.alerta{
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    
+}
+
+span.nomeUsuarioCorrente{
+    color: white;
+}
+
 @media screen and (max-width: 550px) {
     #tabela-extrato{
         max-width: 90%;
@@ -30,7 +41,7 @@ div#escolhas{
     justify-content: center;
 }
 button.btn-secondary{
-    height: 38px;
-    width: 137px;
+    
+    width: 200px;
     margin: auto 0px;
 }
