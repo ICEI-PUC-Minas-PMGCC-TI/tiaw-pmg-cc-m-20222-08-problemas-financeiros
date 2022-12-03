@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/codigo/styles/style.css" rel="stylesheet">
+    <link href="/codigo/styles/fonts.css" rel="stylesheet">
+    <link href="/codigo/styles/media.css" rel="stylesheet">
+    
+    <title>FF Mainpage</title>
+
+    <script>
+
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.querySelector('a.link-logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            if(usuarioCorrente.login){
+                //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
+                document.querySelector("a.link-login").style.display = 'none';
+            } else{
+                document.querySelector('a.link-logout').style.display = 'none';
+                //document.querySelector('aside.comprimento').style.display = 'none';
+                document.querySelector("a.link-login").addEventListener('click', () => {
+                    window.location.href = LOGIN_URL;  
+                })
+            }
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Finance</h1>
+            <h1>First</h1>
+        </div>
+        
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="servicos.html"><li>Serviços</li></a>
+            <a href="sobre.html"><li>Sobre</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn" class="link-login"><li>Faça login</li></a>
+            <a href="index.html" id="inscreva-se-btn" class="link-logout"><li>Sair da Conta</li></a>
+        </ul>
+
+      
+    </header>
+
+    <main>
+        <aside class="comprimento"> <!--COMPRIMENTO DO USUARIO-->
+            <h2><span>Inscreva-se agora</span></h2>
+            <h2>na FinanceFirst</h2>
+            <p>
+                Aqui na FinancFirst, não ajudamos você so organizar o seu dinheiro, te ajudamos a construir o seu futuro e realizar seus sonhos, venha evoluir com a gente!
+            </p>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+
+        <article>
+            <img src="./components/images/bluetheme.png" alt="tema-azul">
+        </article>
+    </main>
+
+
+    <footer id="footer">
+        <h1>
+            © 2022 Copyright: Finance First - Todos os direitos reservados.
+        </h1>
+    </footer>
+    
+
+    <script src="/codigo/scripts/index.js"></script>
+    <script src="/codigo/scripts/login.js"></script>
+</body>
+</html>

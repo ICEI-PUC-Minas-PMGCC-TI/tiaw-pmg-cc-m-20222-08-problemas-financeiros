@@ -1,7 +1,7 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-Digital Finance!
+Finance First!
 
 `CURSO` 
 
@@ -55,131 +55,74 @@ Yan Sabarense
 - [Referências](#referências)
 
 
-# Introdução
+# Introdução 
+>Problemas financeiros afetam grande parcela da população, visto que compõe uma parte significativa de nossas vidas. Por isso, é essencial sabermos gerenciar os nossos recursos financeiros e termos uma relação saudável com o dinheiro para conservar a saúde mental. 
+>De acordo com os resultados de um estudo, apenas uma parcela de 33% da população mundial domina três dos quatro conceitos abordados na pesquisa e pode ser considerada educada financeiramente. Isso significa que duas a cada três pessoas, ou 3,4 bilhões de pessoas, têm baixo nível de educação financeira.
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
+>Conforme exposto, o problema que se busca resolver com este projeto são os problemas financeiros das personas criadas por nós. Dentre eles, podemos citar:
 >
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
+>* Uso inadequado do cartão de crédito: Muitos brasileiros abusam do cartão de
+>crédito em compras parceladas e de alto valor.
 >
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+>* Investimentos mal planejados: Alguns investimentos possuem alto risco, isso pode
+>gerar uma perda de dinheiro repentina ou até mesmo de patrimônio.
+>
+>* A falta de corte de despesas: Na qual você não saber qual a prioridade no momento
+>você vai acabar gastando mais podendo resultar em problemas financeiros.
+>
+>* Um dos problemas financeiros mais comuns nos negócios é a gestão ineficiente do
+>fluxo de caixa, o fluxo de caixa trata-se, basicamente, do mapeamento da
+>movimentação financeira de uma empresa.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+>O objetivo geral deste trabalho é a criação de um site que apresente ferramentas de fácil uso e que permita o acesso por parte do usuário a um universo variado de informações sobre finanças e gerenciamento de recursos. Dessa forma, te ajudará a prevenir/remediar um problema financeiro. Com total foco nos problemas das personas na qual desenvolvemos,  vamos priorizar em resolvê-los.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
+>A educação financeira é importante para pessoas em qualquer faixa de renda, que buscam tranquilidade e segurança material para aproveitar a vida da maneira que acharem mais conveniente. Saber ganhar, economizar e investir os seus recursos é a melhor maneira de garantir essa segurança.
+>Além disso, minimizará a possibilidade de possíveis problemas financeiros e problemas no âmbito econômico.
 >
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+>Embora todas as pessoas possam se beneficiar de soluções isentas para se informarem, o foco deste trabalho está no público que tem o problemas financeiros e/ou busca conhecimento na área.
+>O público-alvo, por sua vez, foram pessoas acima de 16 anos, das classes A, B e C, economicamente ativas, que vivem de renda baixa como 1 a 3 salários mínimos ou aposentadas.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+>A definição do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho feito pelos membros da equipe a partir da observação dos usuários por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Primeira Persona
+
+>![Primeira Persona](immages/../images/persona_cynthia.jpg)
+>![Mapa de empatia](immages/../images/mapa-cynthia.png)
 
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+> Segunda Persona
+
+>![Segunda persona](immages/../images/persona_joao_lombardi.jpg)
+>![Mapa de empatia](immages/../images/mapa-joao.png)
 
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`|    QUERO/PRECISO ... `FUNCIONALIDADE`   |         PARA ... `MOTIVO/VALOR`        |
+|--------------------|-----------------------------------------|----------------------------------------|
+|João Lombardi       | Saber o meu perfil de investidor        | Investir no fundo certo                |
+|Cynthia             | Organizar melhor meus gastos            | Sobrar dinheiro para investir          |
+|Cynthia             | Leitura fácil e intuitiva de dados      | Compreender bem o que está acontecendo |
+|João Lombardi       | Converter moedas em tempo real          | Juntar dinheiro para uma viagem        |
+|Cynthia             | Aprednder sobre investimentos           | Ter renda provida de investimentos     |
+|Administrador       | Visualizar os investimentos mais usados | Colocá-lo como recomendado             |
+|Administrador       | Alterar permissões                      | Permitir que possam administrar contas |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -189,9 +132,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Permitir que o usuário cadastre-se | ALTA | 
+|RF-002| Emitir um tipo de perfil para o usuário | MÉDIA |
+|RF-003| Permitir a recuperação de senha | ALTO |
+|RF-004| Controle de gastos | ALTO |
+|RF-005| Conversor de moedas | BAIXO |
+|RF-006| Gráfico de controle | ALTA |
+|RF-007| Central de suporte | ALTA |
+|RF-008| Avisos de risco | ALTO |
+|RF-009| Guias sobre educação financeira | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -241,89 +190,56 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 # Projeto de Interface
-
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
-
+>
+>Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+>  
+>  
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
+> mapear o fluxo de telas do site ou app. Essa técnica funciona
 > para alinhar os caminhos e as possíveis ações que o usuário pode
 > fazer junto com os membros de sua equipe.
 >
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
 > **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
+> ![UserFlow Completo](images/user-flow-completo.pdf)
+> ![Exemplo de Useflow](images/userflow.png)
 
 ## Wireframes
-
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
 > páginas. Um wireframe web é uma ilustração semelhante ao
 > layout de elementos fundamentais na interface.
 > 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
 > **Exemplo**:
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Exemplo de Wireframe](images/wireframe.png)
 
 
 # Metodologia
 
-A metodologia adotada pelo grupo foi baseada em multiplas ferramentas de trabalho, dessa foram podemos diversificar as funções no grupo
-de maneira mais dinâminca.
-
-Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
-acompanhada por todos, com reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
-individualmente ou em dupla, quando julgado necessário pelo grupo.
-
-A elaboração da entrevista foi realizada pelo grupo focando a qualidade e não a quantidade. Diversas perguntas foram elaboradas, mas no
-final apenas seis foram escolhidas para a realização da entrevista. Cada integrante do grupo foi conduzido a realizar pelo menos uma
-entrevista.
-
-As ferramentas utilizadas foram:
-
-- GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.
-- Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
- discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
-- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
-- Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow.
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
+>A metodologia adotada pelo grupo foi baseada em múltiplas ferramentas de trabalho, dessa forma podemos diversificar as funções no grupo
+>de maneira mais dinâmica.
 >
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+>Em cada sprint são estabelecidas tarefas a fazer. Essas tarefas são divididas entre os integrantes do grupo, e sua progressão é
+>acompanhada por todos, com reuniões diárias, através do Discord, e pelo Kanban, na plataforma Trello. A divisão pode ser feita
+>individualmente ou em dupla, quando julgado necessário pelo grupo.
+>
+>A elaboração da entrevista foi realizada pelo grupo focando a qualidade e não a quantidade. Diversas perguntas foram elaboradas, mas no
+>final apenas seis foram escolhidas para a realização da entrevista. Cada integrante do grupo foi conduzido a realizar pelo menos uma
+>entrevista.
+>
+>As ferramentas utilizadas foram:
+>
+>- Git: Sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.
+>- GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto.
+>- GitHubDesktop: Aplicativo que permite que você interaja com o GitHub usando uma GUI em vez da linha de comando ou de um navegador web
+>- Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
+> discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking.
+>- Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo.
+>- Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow.
 
 ## Divisão de Papéis
 
@@ -344,7 +260,7 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 |Processo de Design Thinkgin  | MIRO |  https://miro.com/app/board/uXjVPX3rVJU=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20222-08-problemas-financeiros | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com |
-|Protótipo Interativo | Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | Figma | https://www.figma.com/proto/B3EFj0lbO0bA3vw2K83qzt/Problemas-Financeiros-v1.0?node-id=1%3A5&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A5 | 
 
 > As ferramentas empregadas no projeto são:
  
@@ -361,14 +277,8 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+> A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/) e o
+[GitHubDesktop](https://desktop.github.com/), sendo que o [Github](https://github.com)
 > foi utilizado para hospedagem do repositório `upstream`.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
@@ -384,11 +294,6 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > - `bugfix`: uma funcionalidade encontra-se com problemas
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
 >
 > **Exemplo - GitHub Feature Branch Workflow**:
 >

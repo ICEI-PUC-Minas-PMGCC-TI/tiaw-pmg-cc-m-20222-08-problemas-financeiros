@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contas</title>
+    <link rel="stylesheet" href="/codigo/styles/contasBancarias.css">
+    <link href="/codigo/styles/style.css" rel="stylesheet">
+    <link href="/codigo/styles/fonts.css" rel="stylesheet">
+    <link href="/codigo/styles/media.css" rel="stylesheet">
+    <script>
+
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.querySelector('a.link-logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            if(usuarioCorrente.login){
+                //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
+                document.querySelector("a.link-login").style.display = 'none';
+            } else{
+                window.location.href = LOGIN_URL;
+            }
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Finance</h1>
+            <h1>First</h1>
+        </div>
+        
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="servicos.html"><li>Serviços</li></a>
+            <a href="sobre.html"><li>Sobre</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn" class="link-login"><li>Faça login</li></a>
+            <a href="index.html" id="inscreva-se-btn" class="link-logout"><li>Sair da Conta</li></a>
+        </ul>
+
+      
+    </header>
+    <h1 class="titulo">
+        <div class="comprimento">
+            
+        </div>
+    </h1>
+    <div id="botoesFormulario">
+        <button id="btnCadastrar">Cadastrar Conta</button>
+        <button id="btnAtualizar">Atualizar Conta</button>
+    </div>
+
+    <div id="formularioContas"></div>
+    
+
+    <script src="/codigo/scripts/login.js"></script>
+    <script src="/codigo/scripts/contasBancarias.js"></script>
+</body>
+</html>

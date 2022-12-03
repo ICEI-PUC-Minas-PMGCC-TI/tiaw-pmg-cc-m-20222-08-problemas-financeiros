@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extrato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/codigo/styles/styleExtrato.css">
+    <link href="/codigo/styles/style.css" rel="stylesheet">
+    <link href="/codigo/styles/fonts.css" rel="stylesheet">
+    <link href="/codigo/styles/media.css" rel="stylesheet">
+    <script>
+
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.querySelector('a.link-logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            if(usuarioCorrente.login){
+                //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
+                document.querySelector("a.link-login").style.display = 'none';
+            } else{
+                window.location.href = LOGIN_URL;
+            }
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+</head>
+<body onload="imprimaSeletorClientes()">
+    
+  <header>
+        <div id="title">
+            <h1>Finance</h1>
+            <h1>First</h1>
+        </div>
+        
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="servicos.html"><li>Serviços</li></a>
+            <a href="sobre.html"><li>Sobre</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn" class="link-login"><li>Faça login</li></a>
+            <a href="index.html" id="inscreva-se-btn" class="link-logout"><li>Sair da Conta</li></a>
+        </ul>
+
+      
+    </header>
+
+    <div class="input-group mb-3" id="seletor-cliente"></div>
+
+    <div id="escolhas">
+        <button type="button" class="btn btn-secondary" id="conferir-extrato">Consultar Extrato</button>
+        
+    </div>
+    <div class="alerta"></div>
+
+    <table class="table table-sm table-bordered border-info" id="tabela-extrato"></table>
+    
+
+    
+    <script src="/codigo/scripts/extrato.js"></script>
+    <script src="/codigo/scripts/login.js"></script>
+</body>
+</html>

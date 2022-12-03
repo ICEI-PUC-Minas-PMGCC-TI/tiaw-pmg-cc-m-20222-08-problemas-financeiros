@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/codigo/styles/style.css" rel="stylesheet">
+    <link href="/codigo/styles/fonts.css" rel="stylesheet">
+    <link href="/codigo/styles/media.css" rel="stylesheet">
+    <title>FF Mainpage</title>
+    <script>
+
+
+      function initPage() {
+
+          // Associa a função de logout ao botão
+          document.querySelector('a.link-logout').addEventListener('click', logoutUser);
+
+          // Informa o nome do usuário logado
+          if(usuarioCorrente.login){
+              //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
+              document.querySelector("a.link-login").style.display = 'none';
+          } else{
+              document.querySelector('a.link-logout').style.display = 'none';
+              //document.querySelector('aside.comprimento').style.display = 'none';
+              document.querySelector("a.link-login").addEventListener('click', () => {
+                  window.location.href = LOGIN_URL;  
+              })
+          }
+      }
+
+      // Associa ao evento de carga da página a função para verificar se o usuário está logado
+      window.addEventListener('load', initPage);
+  </script>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Finance</h1>
+            <h1>First</h1>
+        </div>
+
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="servicos.html"><li>Serviços</li></a>
+            <a href="sobre.html"><li>Sobre</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-btn" class="link-login"><li>Faça login</li></a>
+            <a href="index.html" id="inscreva-se-btn" class="link-logout"><li>Sair da Conta</li></a>
+        </ul>
+    </header>
+
+    <main>
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Fale Conosco</h2>
+            </div>
+            <div class="row">
+              <div class="column">
+                <form action="mailto:sabarensey@gmail.com" method="post">
+                  <label for="fname">Primeiro Nome</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+                  <label for="lname">Último Nome</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Seu último nome...">
+                  <label for="assunto">Assunto</label>
+                  <input type="text" id="fassunto" name="assunto" placeholder="Digite algo...">
+                  <input type="submit" value="Submit >">
+                </form>
+              </div>
+            </div>
+          </div>
+          <article>
+            <img src="/codigo/components/images/bluetheme.png" alt="tema-azul">
+        </article>
+    </main>
+    <footer id="footer">
+        <h1>
+            © 2022 Copyright: Finance First - Todos os direitos reservados.
+        </h1>
+    </footer>
+
+
+    <script src="/codigo/scripts/login.js"></script>
+</body>
+</html>
