@@ -304,10 +304,10 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 > Como descrito anteriormente, a má administração financeira afeta parte dos brasileiros. 
 > Nossa solução se dá em oferecer de maneira simples e direta as informações para o nosso
-> usuário, de modo que seja intuitivo e rápida a compreenção sobre onde ele se encontra na
+> usuário, de modo que seja intuitivo e rápida a compreensão sobre onde ele se encontra na
 > sua situação financeira.
 > Colocando diversos recursos em um mesmo lugar, o usuário só precisa voltar sua atenção
-> para um único lugar, simplificando sua vida e a tornado mais ágil. 
+> para um único lugar, simplificando sua vida e a tornando mais ágil. 
 
 ## Tecnologias Utilizadas
 
@@ -328,11 +328,6 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
 > **Exemplo do diagrama de Arquitetura**:
 > 
 > ![Arquitetura](images/Arquitetura.png)
