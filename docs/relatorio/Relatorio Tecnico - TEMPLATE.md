@@ -306,7 +306,12 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Como descrito anteriormente, a má administração financeira afeta parte dos brasileiros. 
+> Nossa solução se dá em oferecer de maneira simples e direta as informações para o nosso
+> usuário, de modo que seja intuitivo e rápida a compreenção sobre onde ele se encontra na
+> sua situação financeira.
+> Colocando diversos recursos em um mesmo lugar, o usuário só precisa voltar sua atenção
+> para um único lugar, simplificando sua vida e a tornado mais ágil. 
 
 ## Tecnologias Utilizadas
 
@@ -334,7 +339,7 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > 
 > **Exemplo do diagrama de Arquitetura**:
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Arquitetura](images/Arquitetura.png)
 
 
 # Avaliação da Aplicação
