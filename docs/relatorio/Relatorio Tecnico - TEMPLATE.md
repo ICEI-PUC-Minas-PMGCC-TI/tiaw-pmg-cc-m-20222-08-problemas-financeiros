@@ -315,7 +315,7 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > - Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow;
 
 > **Diagrama de interação com o usuário**:
->![diagrama usuraio](images/diagramaUsuario.png)
+> ![diagrama usuraio](images/diagramaUsuario.png)
 
 > **Exemplo do Userflow**:
 > ![Exemplo de Useflow](images/userflow.png)
