@@ -9,7 +9,6 @@ Esse projeto visa instruir e auxiliar pessoas que sofrem ou estão propensas a s
 * Alexandre C. Jurka
 * Eduardo Fonseca
 * Lucas Jesuíno
-* Lucas Jhony
 * Mateus Gonçalves
 * Pedro Henrique
 * Yan Sabarense 
