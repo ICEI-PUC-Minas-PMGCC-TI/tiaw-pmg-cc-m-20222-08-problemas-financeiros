@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>1) O que você faz quando recebe uma grana inesperada?</p>
+    <input type="radio" name="questao1">Guardo o dinheiro onde eu consiga ver.<br>
+    <input type="radio" name="questao2" id="correta1">Procuro o melhor jeito de investir, balanceando alguma quantia onde eu possa ver e outra para um tempo mais longo.<br>
+    <input type="radio" name="questao3">Invisto tudo em um vencimento a longo prazo.<br>
+
+    <p>2) Qual investimento te atrai mais?</p>
+    <input type="radio" name="questao1">Renda Fixa.<br>
+    <input type="radio" name="questao2" id="correta2">Tesouro direto.<br>
+    <input type="radio" name="questao3">Ações e variáveis.<br>
+
+
+    <p>3) Qual o tipo de resgate que mais te interessaria?</p>
+    <input type="radio" name="questao1">Imediato.<br>
+    <input type="radio" name="questao2" id="correta3">1 a 2 Anos.<br>
+    <input type="radio" name="questao3">3 anos ou mais.<br>
+
+
+    <p>4) Qual meta você mais se identificaria nesse exato momento?</p>
+    <input type="radio" name="questao1">Poupar o meu dinheiro.<br>
+    <input type="radio" name="questao2" id="correta4">Algum bem material (carro, casa, etc).<br>
+    <input type="radio" name="questao3">Reserva de emergência.<br>
+
+
+    <p>5) Você possui alguma coisa que gastaria o seu dinheiro agora se pudesse?</p>
+    <input type="radio" name="questao1">Com certeza!<br>
+    <input type="radio" name="questao2" id="correta5">Talvez.<br>
+    <input type="radio" name="questao3">Preferia investir.<br>
+
+    <script type="text/javascript">
+        function result() {
+            var score = 0;
+            if(document.getElementById('correta1').checked) {
+                score++;
+            }
+            if(document.getElementById('correta2').checked) {
+                score++;
+            }
+            if(document.getElementById('correta3').checked) {
+                score++;
+            }
+            if(document.getElementById('correta4').checked) {
+                score++;
+            }
+            if(document.getElementById('correta5').checked) {
+                score++;
+            }
+            alert("Sua pontuação para o perfil moderado: " +score);
+        }
+    </script>
+</body>
+</html>
