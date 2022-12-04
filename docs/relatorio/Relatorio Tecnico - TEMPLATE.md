@@ -180,15 +180,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 # Projeto de Interface
 >
 >Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
@@ -203,7 +194,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > **Exemplo**:
 > 
-> ![UserFlow Completo](images/user-flow-completo.pdf)
 > ![Exemplo de Useflow](images/userflow.png)
 
 ## Wireframes
@@ -311,7 +301,21 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Utilizamos diversas ferramentas para a resolução de nosso problema, tais quais:
+> - HTML: Linguagem de marcação para criação de websites;
+> - CSS: Estilização do website;
+> - JavaScript: Linguagem de script para processamento de dados, de maneira dinâmica;
+> - Visual Studio Code: Editor de código;
+> - Git: Sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software;
+> - GitHub: Utilizado para controle do repositório e de toda a documentação a respeito do projeto;
+> - GitHubDesktop: Aplicativo que permite que você interaja com o GitHub usando uma GUI em vez da linha de comando ou de um navegador web;
+> - Miro: Processo de design thinking foi construido usando a platoforma Miro, onde os integrantes, em conjunto e em reuniões on-line,
+>  discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking;
+> - Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo;
+> - Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow;
+>
+> ![Exemplo de Useflow](images/userflow.png)
+> ![Exemplo de Wireframe](images/wireframe.png)
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
