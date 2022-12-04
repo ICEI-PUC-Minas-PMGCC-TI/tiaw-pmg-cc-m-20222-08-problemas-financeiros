@@ -314,11 +314,12 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > - Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo;
 > - Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow;
 
-> **Figura explicativa**:
+> **Diagrama de interação com o usuário**:
 
-> **Userflow**:
+> **Exemplo do Userflow**:
 > ![Exemplo de Useflow](images/userflow.png)
-> **Wireframe**:
+
+> **Exemplo do Wireframe**:
 > ![Exemplo de Wireframe](images/wireframe.png)
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
