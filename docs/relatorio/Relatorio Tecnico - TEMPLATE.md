@@ -14,6 +14,8 @@ Eduardo Fonseca
 
 Lucas Jesuíno
 
+Lucas Jhony
+
 Mateus Gonçalves
 
 Pedro Henrique
