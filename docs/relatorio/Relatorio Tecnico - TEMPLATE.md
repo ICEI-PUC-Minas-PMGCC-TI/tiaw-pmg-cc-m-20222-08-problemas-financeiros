@@ -145,10 +145,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| Guias sobre educação financeira | MÉDIA |
 |RF-010| Gestão de gastos | ALTA |
 |RF-011| Gerenciamento da fatura do cartão de crédito | ALTA |
-|RF-011| Gerenciamento da fatura do cartão de crédito | ALTA |
 |RF-012| Cadastro de conta bancária | ALTO |
-|RF-012| Modo família | BAIXA |
-
+|RF-013| Modo família | BAIXA |
 
 ### Requisitos não Funcionais
 
