@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet'); 
+ :root { 
+   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); 
+ } 
+  
+ * { 
+   box-sizing: border-box; 
+   letter-spacing: 1px; 
+ } 
+  
+ html { 
+   --bg: #f7f7f7; 
+   --h1: #2e75cc; 
+   --h2: #1d1d1d; 
+   --h3-border: #bbb; 
+   --white: #fff; 
+   --border: #dedede; 
+   --plus: #2ecc71; 
+   --minus: #c0392b; 
+   --btn: #36aa9b; 
+   --li: #333; 
+   --delete: #e74c3c; 
+   --txt-btn-delete: #fff; 
+   --input: #868585; 
+   --btn-dark: #868585; 
+ } 
+  
+ .dark { 
+   --bg: #1f1f1f; 
+   --h1: #62d2ff; 
+   --h2: #ffffff; 
+   --h3-border: #ba04e7; 
+   --white: #575757; 
+   --border: #575757; 
+   --plus: #03eb22; 
+   --minus: #ff1900; 
+   --btn: #8a1dc9; 
+   --li: #333; 
+   --delete: #ff1900; 
+   --txt-btn-delete: #fff; 
+   --input: #cccccc; 
+   --btn-dark: #fff; 
+ } 
+  
+ body { 
+   background-color: var(--bg); 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: center; 
+   min-height: 100vh; 
+   margin: 0; 
+   font-family: 'Roboto', sans-serif; 
+ } 
+  
+ .container { 
+   margin: 30px auto; 
+   width: 350px; 
+ } 
+  
+ h1 { 
+   margin: 0; 
+   color: var(--h1); 
+ } 
+  
+ h2 { 
+   font-size: 35px; 
+   font-weight: bold; 
+   color: var(--h2); 
+ } 
+  
+ h3 { 
+   color: var(--h2); 
+   border-bottom: 1px solid var(--h3-border); 
+   padding-bottom: 10px; 
+   margin: 40px 0 10px; 
+ } 
+  
+ h4 { 
+   color: var(--h2); 
+   margin: 0; 
+   text-transform: uppercase; 
+ } 
+  
+ .inc-exp-container { 
+   border-radius: 8px; 
+   background-color: var(--white); 
+   box-shadow: var(--box-shadow); 
+   padding: 20px; 
+   display: flex; 
+   justify-content: space-between; 
+   margin: 20px 0; 
+ } 
+  
+ .inc-exp-container>div { 
+   flex: 1; 
+   text-align: center; 
+ } 
+  
+ .inc-exp-container>div:first-of-type { 
+   border-right: 1px solid var(--border); 
+ } 
+  
+ .money { 
+   font-size: 20px; 
+   margin: 5px 0; 
+ } 
+  
+ .money.plus { 
+   color: var(--plus); 
+   font-weight: bold; 
+ } 
+  
+ .money.minus { 
+   color: var(--minus); 
+   font-weight: bold; 
+ } 
+  
+ label { 
+   display: inline-block; 
+   margin: 10px 0; 
+   color: var(--h2); 
+ } 
+  
+ input[type='text'], input[type='number'] { 
+   border: 1px solid var(--border); 
+   box-shadow: var(--box-shadow); 
+   border-radius: 8px; 
+   display: block; 
+   font-size: 16px; 
+   padding: 10px; 
+   width: 100%; 
+   background-color: var(--white); 
+   color: var(--h2); 
+ } 
+  
+ input[type='text']::placeholder, input[type='number']::placeholder { 
+   color: var(--input); 
+ } 
+  
+ .btn { 
+   cursor: pointer; 
+   background-color: var(--btn); 
+   box-shadow: var(--box-shadow); 
+   color: var(--txt-btn-delete); 
+   border: 0; 
+   border-radius: 8px; 
+   display: block; 
+   font-size: 16px; 
+   margin: 10px 0 2px; 
+   padding: 10px; 
+   width: 100%; 
+   font-weight: bold; 
+ } 
+  
+ .btn:focus, .delete-btn:focus { 
+   outline: 0; 
+ } 
+  
+ button#darkmode { 
+   border-radius: 8px; 
+   padding: 8px; 
+   border: none; 
+   background-color: var(--btn-dark); 
+   font-size: 13px; 
+   font-weight: bold; 
+   color: var(--white); 
+   outline-style: none; 
+   margin-bottom: 10px; 
+ } 
+  
+ .transactions { 
+   list-style-type: none; 
+   padding: 0; 
+   margin-bottom: 40px; 
+ } 
+  
+ .transactions li { 
+   border-radius: 8px; 
+   background-color: var(--white); 
+   box-shadow: var(--box-shadow); 
+   color: var(--li); 
+   display: flex; 
+   justify-content: space-between; 
+   position: relative; 
+   padding: 10px; 
+   margin: 10px 0; 
+   color: var(--h2); 
+ } 
+  
+ .transactions li.plus { 
+   border-right: 5px solid var(--plus); 
+ } 
+  
+ .transactions li.minus { 
+   border-right: 5px solid var(--minus); 
+ } 
+  
+ .delete-btn { 
+   cursor: pointer; 
+   background-color: var(--delete); 
+   border: 0; 
+   border-radius: 8px 0 0 8px; 
+   color: var(--txt-btn-delete); 
+   font-size: 20px; 
+   line-height: 20px; 
+   padding: 2px 5px; 
+   position: absolute; 
+   top: 50%; 
+   left: 0; 
+   transform: translate(-100%, -50%); 
+   opacity: 0; 
+   transition: opacity 0.3s ease; 
+ } 
+  
+ .transactions li:hover .delete-btn { 
+   opacity: 1; 
+ }
