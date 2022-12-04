@@ -136,13 +136,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre-se | ALTA | 
 |RF-002| Emitir um tipo de perfil para o usuário | MÉDIA |
-|RF-003| Permitir a recuperação de senha | ALTO |
+|RF-003| Extrato bancário | ALTO |
 |RF-004| Controle de gastos | ALTO |
 |RF-005| Conversor de moedas | BAIXO |
 |RF-006| Gráfico de controle | ALTA |
-|RF-007| Central de suporte | ALTA |
-|RF-008| Avisos de risco | ALTO |
+|RF-007| Central de suporte (FAQ) | ALTA |
+|RF-008| Alerta de limite alcançado | ALTO |
 |RF-009| Guias sobre educação financeira | MÉDIA |
+|RF-010| Gestão de gastos | ALTA |
+|RF-011| Gerenciamento da fatura do cartão de crédito | ALTA |
+|RF-011| Gerenciamento da fatura do cartão de crédito | ALTA |
+|RF-012| Cadastro de conta bancária | ALTO |
+|RF-012| Modo família | BAIXA |
+
 
 ### Requisitos não Funcionais
 
@@ -151,9 +157,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
 > - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
 >   correspondem a uma funcionalidade que deve estar presente na
 >   plataforma (ex: cadastro de usuário).
@@ -167,11 +170,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > característica alvo da sua solução. Além disso, certifique-se de que
 > todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 > 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 ## Restrições
 
@@ -301,8 +299,6 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 >
 > ![Exemplo de Wireframe](images/Github-Workflow.png)
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
@@ -340,39 +336,6 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > **Exemplo do diagrama de Arquitetura**:
 > 
 > ![Arquitetura](images/Arquitetura.png)
-
-
-# Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
 
 # Referências
 
