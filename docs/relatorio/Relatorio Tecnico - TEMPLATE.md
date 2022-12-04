@@ -313,8 +313,12 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 >  discutiram e analisaram as respostas de cada um para elaborar e contruir o design thinking;
 > - Trello: Plataforma utilizada para construir o Kanban utilizado pelo grupo;
 > - Figma: Plataforma escolhida para desenvolvimento do Wireframe e do Userflow;
->
+
+> **Figura explicativa**:
+
+> **Userflow**:
 > ![Exemplo de Useflow](images/userflow.png)
+> **Wireframe**:
 > ![Exemplo de Wireframe](images/wireframe.png)
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
