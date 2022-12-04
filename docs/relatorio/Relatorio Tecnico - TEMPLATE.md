@@ -369,21 +369,15 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 # Referências
 
-> https://n26brasil.com/n-cuidados/5-passos-para-lidar-com-o-estresse-financeiro/​
+> - https://n26brasil.com/n-cuidados/5-passos-para-lidar-com-o-estresse-financeiro/​
 >
-> https://www.conexasaude.com.br/blog/problemas-financeiros/#:~:text=Problemas%20financeiros%20da%20popula%C3%A7%C3%A3o%20brasileira&text=Uso%20inadequado%20do%20cart%C3%A3o%20de,ou%20at%C3%A9%20mesmo%20de%20patrim%C3%B4nio.​
+> - https://www.conexasaude.com.br/blog/problemas-financeiros/#:~:text=Problemas%20financeiros%20da%20popula%C3%A7%C3%A3o%20brasileira&text=Uso%20inadequado%20do%20cart%C3%A3o%20de,ou%20at%C3%A9%20mesmo%20de%20patrim%C3%B4nio.​
 >
-> https://queroficarrico.com/blog/problemas-financeiros/​
+> - https://queroficarrico.com/blog/problemas-financeiros/​
 >
-> https://www.linkedin.com/pulse/principais-problemas-financeiros-entre-empresas-de-pequeno-moreira/?trk=pulse-article_more-articles_related-content-card&originalSubdomain=pt​
+> - https://www.linkedin.com/pulse/principais-problemas-financeiros-entre-empresas-de-pequeno-moreira/?trk=pulse-article_more-articles_related-content-card&originalSubdomain=pt​
 >
-> ​https://www.w3schools.com/
+> - ​https://www.w3schools.com/
 >
-> https://stackoverflow.com/
+> - https://stackoverflow.com/
 >
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
