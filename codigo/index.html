@@ -6,12 +6,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="codigo/styles/style.css" rel="stylesheet">
-    <link href="codigo/styles/fonts.css" rel="stylesheet">
-    <link href="codigo/styles/media.css" rel="stylesheet">
-    <script src="codigo/dropdown.js" defer></script>
+    <link href="/codigo/styles/style.css" rel="stylesheet">
+    <link href="/codigo/styles/fonts.css" rel="stylesheet">
+    <link href="/codigo/styles/media.css" rel="stylesheet">
+    <script src="/codigo/scripts/dropdown.js" defer></script>
     
     <title>FF Mainpage</title>
+
+    <script>
+
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.querySelector('a.link-logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            if(usuarioCorrente.login){
+                //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
+                document.querySelector("a.link-login").style.display = 'none';
+            } else{
+                document.querySelector('a.link-logout').style.display = 'none';
+                //document.querySelector('aside.comprimento').style.display = 'none';
+                document.querySelector("a.link-login").addEventListener('click', () => {
+                    window.location.href = LOGIN_URL;  
+                })
+            }
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
 </head>
 <body>
     <header>
@@ -29,9 +55,12 @@
         <div>
             <div class="dropdown-heading">Financeiros</div>
             <div class="dropdown-links">
-              <a href="#" class="link">Gestor de gastos/<a>
+
+              <a href="#" class="link">Gestor de gastos</a>
+
               <a href="#" class="link">Gerenciamento de fatura</a>
-              <a href="#" class="link">extrato</a>
+              <a href="extrato.html" class="link">Extrato</a>
+              <a href="contasBancarias.html" class="link">Conta Bancária</a>
               <a href="#" class="link">calendario</a>
               <a href="#" class="link">grafico de controle</a>
             </div>
@@ -39,15 +68,15 @@
 </div>
             <a href="sobre.html"><li>Sobre</li></a>
             <a href="contato.html"><li>Contato</li></a>
-            <a href="cadastro.html" id="inscreva-se-btn"><li>Cadastre sua conta</li></a>
-            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+            <a href="#" id="inscreva-se-btn" class="link-login"><li>Faça login</li></a>
+            <a href="index.html" id="inscreva-se-btn" class="link-logout"><li>Sair da Conta</li></a>
         </ul>
 
       
     </header>
 
     <main>
-        <aside>
+        <aside class="comprimento"> <!--COMPRIMENTO DO USUARIO-->
             <h2><span>Inscreva-se agora</span></h2>
             <h2>na FinanceFirst</h2>
             <p>
@@ -73,6 +102,7 @@
     </footer>
     
 
-    <script src="codigo/scripts/index.js"></script>
+    <script src="/codigo/scripts/index.js"></script>
+    <script src="/codigo/scripts/login.js"></script>
 </body>
 </html>

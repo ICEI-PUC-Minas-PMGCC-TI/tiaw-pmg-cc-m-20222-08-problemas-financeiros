@@ -8,6 +8,30 @@
   <title>Cadastro de Contatos</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="/codigo/styles/styleContatos.css">
+  <script>
+
+
+    function initPage() {
+
+        // Associa a função de logout ao botão
+        document.querySelector('a.link-logout').addEventListener('click', logoutUser);
+
+        // Informa o nome do usuário logado
+        if(usuarioCorrente.login){
+            //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
+            document.querySelector("a.link-login").style.display = 'none';
+        } else{
+            document.querySelector('a.link-logout').style.display = 'none';
+            //document.querySelector('aside.comprimento').style.display = 'none';
+            document.querySelector("a.link-login").addEventListener('click', () => {
+                window.location.href = LOGIN_URL;  
+            })
+        }
+    }
+
+    // Associa ao evento de carga da página a função para verificar se o usuário está logado
+    window.addEventListener('load', initPage);
+</script>
 </head>
 
 <body onload="init()">
@@ -22,7 +46,7 @@
 
     <form id="form-contato">
       <div class="form-group row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 hide-id">
           <label for="inputId">Id</label>
           <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
         </div>
@@ -80,7 +104,7 @@
         <table id="grid-contatos" class="table table-striped">
           <thead>
             <tr>
-              <th scope="col">#</th>
+              <th scope="col" class="hide-id">#</th>
               <th scope="col">Nome</th>
               <th scope="col">Telefone</th>
               <th scope="col">E-mail</th>
@@ -90,7 +114,7 @@
           </thead>
           <tbody id="table-contatos">
             <tr>
-              <td scope="row">1</td>
+              <td scope="row" class="hide-id">1</td>
               <td></td>
               <td></td>
               <td></td>
@@ -111,15 +135,19 @@
       $("#table-contatos").html("");
 
       // Popula a tabela com os registros do banco de dados
-      for (i = 0; i < db.dados.contas.length; i++) {
+      for (i = 1; i < db.dados.contas.length; i++) {
         let contato = db.dados.contas[i];
-        $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+        $("#table-contatos").append(`<tr><td scope="row" class="hide-id">${contato.id}</td>
                                                 <td>${contato.nome}</td>
                                                 <td>${contato.telefone}</td>
                                                 <td>${contato.email}</td>
                                                 <td>${contato.cidade}</td>
                                                 <td>${contato.categoria}</td>
                                             </tr>`);
+      }
+      let hideId = document.querySelectorAll('.hide-id');
+      for(let c = 0; c < hideId.length; c++){
+        hideId[c].style.display = 'none';
       }
     }
 
@@ -192,7 +220,7 @@
           displayMessage("Selecione um contato a ser excluído.");
           return;
         }
-        deleteContato(parseInt(campoId));
+        deleteContato(campoId);
 
         // Reexibe os contatos
         exibeContatos();
@@ -231,6 +259,8 @@
       exibeContatos();
     }
   </script>
+
+  <script src="/codigo/scripts/login.js"></script>
 </body>
 
 </html>

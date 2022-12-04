@@ -12,43 +12,43 @@ function leiaDados(){
 }
 
 /* Seletor de Clientes - INÍCIO */
+
 function imprimaSeletorClientes(){
     let seletor = document.querySelector("#seletor-cliente");
-    let strHtml = `<label class="input-group-text" for="inputGroupSelect01">Nome</label>
-    <select class="form-select" id="inputGroupSelect01"></select>`;
+    let strHtml = `<h3>Olá <span>${usuarioCorrente.nome}</span>, clique no botão abaixo para consultar seu extrato!</h3>`;
     seletor.innerHTML = strHtml;
-    imprimaNomeClientes();
 }
-function imprimaNomeClientes(){
-    let objDados = leiaDados();
-    let seletorNomes = document.querySelector("#inputGroupSelect01");
-    let strHtml = `<option selected>Selecione o nome do Cliente</option>`;
-    for(let i=0; i < objDados.dados.contasBancarias.length; i++){
-        strHtml += `<option>${objDados.dados.contasBancarias[i].nome}</option>`
-    }
-    seletorNomes.innerHTML = strHtml;
-}
+
 /* Seletor de Clientes - FIM */
 
 /* Tabela dos Extratos - INÍCIO */
 function imprimaTabelaExtrato(){
-    let tabela = document.querySelector("#tabela-extrato");
-    let strHtml = `<thead>
-        <tr class="table-secondary">
-        <th scope="col">data</th>
-        <th scope="col">Descrição</th>
-        <th scope="col">Valor (R$)</th>
-        </tr>
-    </thead>
-    <tbody class="corpo-tabela-extrato"></tbody>`;
-    tabela.innerHTML = strHtml;
-    imprimaLinhasTabelaExtrato();
+    let objDados = leiaDados();
+    let possuiLancamentos = false;
+    for(let c = 0; c < objDados.dados.lancamentos.length; c++){
+        if(usuarioCorrente.id == objDados.dados.lancamentos[c].id) possuiLancamentos = true;
+    }
+    if(possuiLancamentos){
+        let tabela = document.querySelector("#tabela-extrato");
+        let strHtml = `<thead>
+            <tr class="table-secondary">
+            <th scope="col">Data</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Valor (R$)</th>
+            </tr>
+        </thead>
+        <tbody class="corpo-tabela-extrato"></tbody>`;
+        tabela.innerHTML = strHtml;
+        imprimaLinhasTabelaExtrato();
+    } else{
+        document.querySelector("div.alerta").innerHTML = `<h4>Desculpe ${usuarioCorrente.nome}, mas você não possui nenhum lançamento.</h4>`;
+    }
 }
 function imprimaLinhasTabelaExtrato(){
     let objDados = leiaDados();
     let corpoTabela = document.querySelector("tbody.corpo-tabela-extrato");
     let strHtml = ``;
-    let nomeSeletor = document.querySelector("#inputGroupSelect01").value;
+    let nomeSeletor = usuarioCorrente.nome;
     let ERRO = nomeSeletor == "Selecione o nome do Cliente";
     if(ERRO){
         alert("Selecione o cliente que deseja consultar o extrato!");
@@ -60,16 +60,16 @@ function imprimaLinhasTabelaExtrato(){
             if(objDados.dados.lancamentos[i].id == idCliente){
                 if(objDados.dados.lancamentos[i].valor > 0){ //Adiciona uma linha com o valor em verde
                     strHtml += `<tr>
-                        <td>${objDados.dados.lancamentos[i].data.dia}/${objDados.dados.lancamentos[i].data.mes}/${objDados.dados.lancamentos[i].data.ano}</td>
-                        <td>${objDados.dados.lancamentos[i].descricao}</td>
+                        <td class="table-light">${objDados.dados.lancamentos[i].data.dia}/${objDados.dados.lancamentos[i].data.mes}/${objDados.dados.lancamentos[i].data.ano}</td>
+                        <td class="table-light">${objDados.dados.lancamentos[i].descricao}</td>
                         <td class="table-success">${objDados.dados.lancamentos[i].valor}</td>
                     </tr>`;
                     saldo += objDados.dados.lancamentos[i].valor;
                 }
                 else { //Adiciona uma linha com o valor em vermelho
                     strHtml += `<tr>
-                        <td>${objDados.dados.lancamentos[i].data.dia}/${objDados.dados.lancamentos[i].data.mes}/${objDados.dados.lancamentos[i].data.ano}</td>
-                        <td>${objDados.dados.lancamentos[i].descricao}</td>
+                        <td class="table-light">${objDados.dados.lancamentos[i].data.dia}/${objDados.dados.lancamentos[i].data.mes}/${objDados.dados.lancamentos[i].data.ano}</td>
+                        <td class="table-light">${objDados.dados.lancamentos[i].descricao}</td>
                         <td class="table-danger">${objDados.dados.lancamentos[i].valor}</td>
                     </tr>`;
                     saldo += objDados.dados.lancamentos[i].valor;

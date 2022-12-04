@@ -4,6 +4,9 @@ var dbInicial = {
         contas: [
         {
             id: 1,
+            email: "Leanne.Graham@email.com",
+            login: "leanneG",
+            senha: "123",
             nome: "Leanne Graham",
             cidade: "Belo Horizonte",
             categoria: "amigos",
@@ -12,6 +15,9 @@ var dbInicial = {
         },
         {
             id: 2,
+            email: "ervin@email.com",
+            login: "ervin",
+            senha: "123",
             nome: "Ervin Howell",
             cidade: "Betim",
             categoria: "familia",
@@ -20,6 +26,9 @@ var dbInicial = {
         },
         {
             id: 3,
+            email: "clementine@email.com",
+            login: "clementine",
+            senha: "123",
             nome: "Clementine Bauch",
             cidade: "Rio de Janeiro",
             categoria: "trabalho",
@@ -28,6 +37,9 @@ var dbInicial = {
         },
         {
             id: 4,
+            email: "patricia@email.com",
+            login: "patricia",
+            senha: "123",
             nome: "Patricia Lebsack",
             cidade: "Betim",
             categoria: "trabalho",
@@ -36,6 +48,9 @@ var dbInicial = {
         },
         {
             id: 5,
+            email: "chelsey@email.com",
+            login: "chelsey",
+            senha: "123",
             nome: "Chelsey Dietrich",
             cidade: "São Paulo",
             categoria: "familia",
@@ -44,6 +59,9 @@ var dbInicial = {
         },
         {
             id: 6,
+            email: "dennis@email.com",
+            login: "dennis",
+            senha: "123",
             nome: "Mrs. Dennis Schulist",
             cidade: "Rio de Janeiro",
             categoria: "trabalho",
@@ -52,6 +70,9 @@ var dbInicial = {
         },
         {
             id: 7,
+            email: "kurtis@email.com",
+            login: "kurtis",
+            senha: "123",
             nome: "Kurtis Weissnat",
             cidade: "Belo Horizonte",
             categoria: "amigos",
@@ -60,6 +81,9 @@ var dbInicial = {
         },
         {
             id: 8,
+            email: "nicholas@email.com",
+            login: "nicholas",
+            senha: "123",
             nome: "Nicholas Runolfsdottir V",
             cidade: "Belo Horizonte",
             categoria: "familia",
@@ -68,6 +92,9 @@ var dbInicial = {
         },
         {
             id: 9,
+            email: "glenna@email.com",
+            login: "glenna",
+            senha: "123",
             nome: "Glenna Reichert",
             cidade: "Betim",
             categoria: "amigos",
@@ -76,6 +103,9 @@ var dbInicial = {
         },
         {
             id: 10,
+            email: "clementina@email.com",
+            login: "clementina",
+            senha: "123",
             nome: "Clementina DuBuque",
             cidade: "São Paulo",
             categoria: "amigos",
