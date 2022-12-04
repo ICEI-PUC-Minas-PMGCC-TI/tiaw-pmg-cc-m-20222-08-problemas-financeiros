@@ -163,11 +163,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 >   correspondem a uma característica técnica, seja de usabilidade,
 >   desempenho, confiabilidade, segurança ou outro (ex: suporte a
 >   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
 
 ## Restrições
 
