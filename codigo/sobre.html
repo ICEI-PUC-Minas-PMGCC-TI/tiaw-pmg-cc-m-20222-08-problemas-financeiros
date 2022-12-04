@@ -22,10 +22,11 @@
                 //document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome + document.getElementById('nomeUsuario').innerHTML;
                 document.querySelector("a.link-login").style.display = 'none';
             } else{
+                document.querySelector('a.cadastro').style.display = 'none';
                 document.querySelector('a.link-logout').style.display = 'none';
                 //document.querySelector('aside.comprimento').style.display = 'none';
                 document.querySelector("a.link-login").addEventListener('click', () => {
-                    window.location.href = LOGIN_URL;  
+                    window.location.href = LOGIN_URL;
                 })
             }
         }
@@ -71,7 +72,7 @@
             <a href="contato.html"><li>Contato</li></a>
             <a href="#" id="inscreva-se-btn" class="link-login"><li>Faça login</li></a>
             <a href="index.html" id="inscreva-se-btn" class="link-logout"><li>Sair da Conta</li></a>
-            <a href="cadastro.html" id="inscreva-se-btn"><li>Cadastre sua conta</li></a>
+            <a href="cadastro.html" id="inscreva-se-btn" class="cadastro"><li>Cadastre sua conta</li></a>
         </ul>
 
       
