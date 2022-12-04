@@ -357,16 +357,6 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 ## Registros de Testes
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -379,8 +369,18 @@ Além das funções pré-definidas abaixo, todos os membros do grupo participara
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
+> https://n26brasil.com/n-cuidados/5-passos-para-lidar-com-o-estresse-financeiro/​
+>
+> https://www.conexasaude.com.br/blog/problemas-financeiros/#:~:text=Problemas%20financeiros%20da%20popula%C3%A7%C3%A3o%20brasileira&text=Uso%20inadequado%20do%20cart%C3%A3o%20de,ou%20at%C3%A9%20mesmo%20de%20patrim%C3%B4nio.​
+>
+> https://queroficarrico.com/blog/problemas-financeiros/​
+>
+> https://www.linkedin.com/pulse/principais-problemas-financeiros-entre-empresas-de-pequeno-moreira/?trk=pulse-article_more-articles_related-content-card&originalSubdomain=pt​
+>
+> ​https://www.w3schools.com/
+>
+> https://stackoverflow.com/
+>
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
 > 
