@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+    width: 50%;
+    text-align: center;
+    position: relative;
+    
+}
+
+#title{
+    flex-direction: column;
+    line-height: 40px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .dropdown.active > .link,
+  .link:hover {
+    font-family: poppinsmedium;
+    color: rgb(255, 255, 255);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: rgb(255, 255, 255);
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    font-family: poppinsmedium;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  }
+  
+  .dropdown.active > .link + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  .information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem;
+  }
+  
+  .dropdown-links {
+    display: flex;
+    flex-direction: row;
+    gap: .25rem;
+    color: #fff;
+    background-color: #fff;
+  }
+
+
+
+
+.title {
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    color: rgb(221, 216, 216);
+    font-weight: 400;
+    font-size: large;  
+    flex-direction: column;
+    
+}
+
+main {
+    padding: 30px 50px;
+    width: 50%;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+button {
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: blue;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.1s;
+}
+
+button:hover {
+    background-color: rgb(2, 2, 153);
+}
+
+.content{
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(226, 225, 225);
+    text-align: left;
+    padding: 1px 5px;
+}
+
+table td {
+    text-align: left;
+    padding: 1px 5px;
+    background-color: #fff;
+}
+
+.center {
+    text-align: center;
+}
